@@ -1,0 +1,31 @@
+
+# Project information
+PROJECT_NAME           = "Battleship Game"
+PROJECT_VERSION        = "2.0"
+
+# Specify the input source code directory using a relative path
+INPUT                  = ./
+
+# Recursively include all source files in the input directory
+FILE_PATTERNS          = *.c *.h
+
+# Specify the directory where the documentation will be generated
+OUTPUT_DIRECTORY       = ./docs
+
+# Use a subdirectory for the HTML output
+HTML_OUTPUT            = html
+
+# Enable the use of the @CMAKE_CURRENT_SOURCE_DIR@ variable
+ENABLE_PREPROCESSING   = YES
+EXTRACT_ALL            = YES
+
+# Set the path to the Doxygen layout file
+LAYOUT_FILE            = DoxygenLayout.xml
+
+# Example configuration options, adjust as needed
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+
+
+
