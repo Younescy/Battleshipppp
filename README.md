@@ -1,5 +1,5 @@
 # Battleship
-Battleship Game in C
+## Battleship Game in C
 
 
 ## To generate Documentation : doxygen Doxyfile in terminal, and open index.html generated in repertory docs/
